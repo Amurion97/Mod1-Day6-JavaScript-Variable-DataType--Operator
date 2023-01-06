@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .operator {
+            width: 50px;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .text-left {
+            text-align: left;
+        }
+        .margin-none {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><input type="text" id="num1"></td>
+            <td><input type="text" id="num2"></td>
+        </tr>
+        <tr class="text-center">
+            <td colspan="2">
+                <button class="operator" id="but11">+</button>
+                <button class="operator" id="but12">-</button>
+                <button class="operator" id="but13">x</button>
+                <button class="operator" id="but14">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-right">
+                <p class="margin-none"> Ket qua la: </p>
+            </td>
+            <td class="text-left">
+                <p id="result" class="margin-none"></p>
+            </td>
+        </tr>
+    </table>
+    <script src="BT3 Calculator.js"></script>
+</body>
+</html>
